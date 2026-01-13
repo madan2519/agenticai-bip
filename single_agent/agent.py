@@ -33,9 +33,6 @@ def create_weather_agent():
     )
     return agent
 
-
-import sys
-from agent import create_weather_agent  # Assuming your agent code is in agent.py
 from langchain_core.messages import HumanMessage
 
 def main():
@@ -72,3 +69,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
